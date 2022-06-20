@@ -34,3 +34,9 @@ main {
     background: rgb(18, 25, 77);
     color: white;
 }
+@media only screen and (max-width: 450px){
+    .btn {
+        font-size: 0.7rem;
+        padding: 0.5rem 1rem;
+    }
+}
