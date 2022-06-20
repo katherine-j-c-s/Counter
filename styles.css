@@ -1,0 +1,36 @@
+main {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: rgb(18, 25, 77);
+    margin: 25% 0%;
+}
+.container{
+    flex-direction: column;
+}
+.container h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+#value {
+    font-weight: 900;
+    font-size: 5rem;
+}
+.button-container {
+    justify-content: center;
+}
+.btn{
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    border: 2px solid rgb(18, 25, 77);
+    border-radius: 1rem;
+    font-size: .9rem;
+    color: rgb(18, 25, 77);
+    margin: 2% 1%;
+    text-transform: uppercase;
+    transition: all 0.3s ease-out;
+}
+.btn:hover {
+    background: rgb(18, 25, 77);
+    color: white;
+}
