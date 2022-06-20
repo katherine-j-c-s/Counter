@@ -3,7 +3,7 @@ main {
     width: 100%;
     text-align: center;
     color: rgb(18, 25, 77);
-    margin: 25% 0%;
+    margin: 10% 0%;
 }
 .container{
     flex-direction: column;
